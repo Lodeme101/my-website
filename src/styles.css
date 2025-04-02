@@ -43,6 +43,27 @@ p {
   font-size: 40px;
 }
 
+.about-section {
+  text-align: left;
+  padding: 100px 20px;
+}
+
+.about-section h2 {
+  font-size: 42px;
+}
+
+.about-section h3 {
+  font-size: 20px;
+}
+
+.about-section p {
+  font-size: 15px;
+}
+
+.about-section img {
+  border-radius: 10px;
+}
+
 .btn-branding {
   background-color: var(--branding-color);
   border-radius: 4px;
