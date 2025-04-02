@@ -35,6 +35,34 @@ p {
   line-height: 30px;
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(7, 90, 214, 0.74);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -100,6 +128,10 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.logo {
+  max-height: 100px;
 }
 
 .project-desciption {
