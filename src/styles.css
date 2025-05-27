@@ -1,5 +1,5 @@
 :root {
-  --default-font-family: "Winky Sans", sans-serif;
+  --default-font-family: "Playfair Display", serif;
   --heading-font-family: "Playfair Display", serif;
   --branding-color: #a0e4f7;
   --secondary-color: #d2ecf3;
@@ -33,6 +33,14 @@ h4 {
   font-size: 40px;
 }
 
+a {
+  color: #2bc8f3b4;
+}
+
+a:hover {
+  color: var(--branding-color);
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -45,13 +53,14 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #07c1f5b4;
+  color: #07c1f5d7;
   transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
+  transition: all 100ms ease-in-out;
 }
 
 nav li {
@@ -88,8 +97,8 @@ footer a {
 }
 
 footer a:hover {
-  color: white;
-  background: var(--branding-color);
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
 }
 
 .hero {
@@ -122,8 +131,8 @@ footer a:hover {
 }
 
 .content h2 {
-  font-size: 18px;
   font-family: var(--default-font-family);
+  text-align: center;
 }
 
 .content h3 {
