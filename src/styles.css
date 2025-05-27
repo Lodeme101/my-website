@@ -21,12 +21,12 @@ h6 {
 }
 
 h1 {
-  font-size: 88px;
+  font-size: 78px;
   line-height: 1.5;
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 50px;
 }
 
 h4 {
@@ -45,7 +45,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: rgba(7, 90, 214, 0.74);
+  color: #07c1f5b4;
   transition: all 100ms ease-in-out;
 }
 
@@ -58,7 +58,7 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
-  margin-left: 15px;
+  margin-left: 30px;
   font-size: 20px;
 }
 
@@ -82,27 +82,12 @@ footer .contact-box p {
   margin: 0;
 }
 
-footer .email-link {
-  text-decoration: none;
-  color: black;
-  font-size: 24px;
-  text-align: center;
-}
-
-footer .email-link:hover {
-  color: var(--branding-color);
-}
-
-footer .social-links a {
-  margin: 0 8px;
+footer a {
   color: #0fbae9;
-  background: rgba(128, 128, 128, 0.521);
-  padding: 8px 12px;
-  font-size: 20px;
-  border-radius: 50%;
+  font-size: 16px;
 }
 
-footer .social-links a:hover {
+footer a:hover {
   color: white;
   background: var(--branding-color);
 }
@@ -166,16 +151,16 @@ footer .social-links a:hover {
 }
 
 .btn-branding-outline {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
+  color: #07c1f5b4;
+  border: 1px solid #07c1f5b4;
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
 
-.logo {
-  max-height: 100px;
+.nav-bar {
+  text-align: right;
 }
 
 .project-desciption {
@@ -197,7 +182,7 @@ footer .social-links a:hover {
   }
 
   h4 {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .btn {
@@ -215,6 +200,10 @@ footer .social-links a:hover {
 
   .project-description {
     padding: 0;
+    text-align: left;
+  }
+
+  footer {
     text-align: center;
   }
 
